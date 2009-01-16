@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2007-10-18T06:35:43.364432Z"
+   url="svn+ssh://mwhalen@devskunk.com/home/mwhalen/repos/elixir/trunk/elixir-classic/elixir/img"
+   last-author="mwhalen"
+   kind="dir"
+   uuid="f5c87e70-51d6-4467-be77-b7af27c7c75e"
+   repos="svn+ssh://mwhalen@devskunk.com/home/mwhalen/repos"
+   revision="1"/>
+<entry
+   committed-rev="1"
+   name="nav_off.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="5deab831b02ebf70332f394449e9c37b"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="nav_on.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="642863ec74795c9245c798cf785745ed"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="bullet.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="4189aaab98bbd97794e35e79a2167aca"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="bg.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="31108603336eadba99b62e6fa6c98f11"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="upperBox_bg.jpg"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="10cd7757e37593084f1124dd1605f986"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="upperBox_search.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="2d94376479e5f1ca9efa8b0764b69a5f"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+</wc-entries>

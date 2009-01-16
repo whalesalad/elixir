@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2007-10-18T06:35:43.364432Z"
+   url="svn+ssh://mwhalen@devskunk.com/home/mwhalen/repos/elixir/trunk/elixir-classic/elixir"
+   last-author="mwhalen"
+   kind="dir"
+   uuid="f5c87e70-51d6-4467-be77-b7af27c7c75e"
+   repos="svn+ssh://mwhalen@devskunk.com/home/mwhalen/repos"
+   revision="1"/>
+<entry
+   committed-rev="1"
+   name="sidebar.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="35b4029bbef081fe2341b8de9eabc107"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:30.000000Z"/>
+<entry
+   committed-rev="1"
+   name="screenshot.png"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="9fade6aa4e4dbb420d2f465c84130052"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="page.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="fc0c458793ae769b45d34d8614cd68ef"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="footer.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="a07f7120609585dd04b8850ef8c7809b"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="single.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="354f47618fe625a18954a2c9cfa39a29"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="style.css"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="fdd794637097ced238f9ac1285ea11c8"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="comments.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="a673a048d9022e86c49541a915577791"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="404.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="4e1e2e62f6d49070b31ef0ce3374cc4b"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="index.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="8bad7805843f4bf4386c4e9a098119cb"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="functions.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="3d1f7d7e2345139868da5e891ed03081"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+<entry
+   committed-rev="1"
+   name="header.php"
+   text-time="2007-10-18T06:29:31.000000Z"
+   committed-date="2007-10-18T06:35:43.364432Z"
+   checksum="8eabde5ea015f92076788a05da0f0867"
+   last-author="mwhalen"
+   kind="file"
+   prop-time="2007-10-18T06:29:31.000000Z"/>
+</wc-entries>
