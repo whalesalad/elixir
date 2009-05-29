@@ -1,57 +1,57 @@
 <?php // Do not delete these lines
-	if ('comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-		die ('Please do not load this page directly. Thanks!');
+    if ('comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+        die ('Please do not load this page directly. Thanks!');
 
         if (!empty($post->post_password)) { // if there's a password
             if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
-				?>
-				
-				<p class="nocomments">This post is password protected. Enter the password to view comments.<p>
-				
-				<?php
-				return;
+                ?>
+                
+                <p class="nocomments">This post is password protected. Enter the password to view comments.<p>
+                
+                <?php
+                return;
             }
         }
 
-		/* This variable is for alternating comment background */
-		$oddcomment = 'alt';
+        /* This variable is for alternating comment background */
+        $oddcomment = 'alt';
 ?>
 
 <!-- You can start editing here. -->
 <?php if ($comments) : ?>
 <h2 id="comments"><?php comments_number('No Replies', 'One Reply', '% Replies' );?></h2> 
-	<ol class="commentlist">
-	
-	<?php foreach ($comments as $comment) : ?>
-	<?php if (get_comment_type() == "comment"){ ?>
-	<li class="<?php if ($comment->comment_author_email == "michael@whalesalad.com") echo 'author'; else echo $oddcomment; ?> item" id="comment-<?php comment_ID() ?>">
-		<div class="commentMeta">
-			<span class="author"><?php comment_author_link() ?></span>
-			<span class="date"><a href="#comment-<?php comment_ID() ?>" title="Comment Permalink"><?php comment_date('M jS Y') ?></a></span>
-			<span class="moderate"><?php edit_comment_link('Moderate','',''); ?></span>
-		</div>	
-		<div class="commentText">
-			<?php if ($comment->comment_approved == '0') : ?>
-				<strong>Your comment is awaiting moderation.</strong>
-			<?php endif; ?>
-			<?php comment_text() ?>
-		</div>
-		<div class="clearfix"></div>
-		</li>	
-	<?php } ?>
-	<?php endforeach; /* end for each comment */ ?>
-	</ol>
-	
- 	<?php else : // this is displayed if there are no comments so far ?>
+    <ol class="commentlist">
+    
+    <?php foreach ($comments as $comment) : ?>
+    <?php if (get_comment_type() == "comment"){ ?>
+    <li class="<?php if ($comment->comment_author_email == "michael@whalesalad.com") echo 'author'; else echo $oddcomment; ?> item" id="comment-<?php comment_ID() ?>">
+        <div class="commentMeta">
+            <span class="author"><?php comment_author_link() ?></span>
+            <span class="date"><a href="#comment-<?php comment_ID() ?>" title="Comment Permalink"><?php comment_date('M jS Y') ?></a></span>
+            <span class="moderate"><?php edit_comment_link('Moderate','',''); ?></span>
+        </div>  
+        <div class="commentText">
+            <?php if ($comment->comment_approved == '0') : ?>
+                <strong>Your comment is awaiting moderation.</strong>
+            <?php endif; ?>
+            <?php comment_text() ?>
+        </div>
+        <div class="clearfix"></div>
+        </li>   
+    <?php } ?>
+    <?php endforeach; /* end for each comment */ ?>
+    </ol>
+    
+    <?php else : // this is displayed if there are no comments so far ?>
 
-  	<?php if ('open' == $post->comment_status) : ?> 
-	<h2 id="comments"><?php comments_number('No Replies', 'One Reply', '% Replies' );?></h2>
-	<p>Feel free to leave a reply using the form below!</p>
-		
-	 <?php else : // comments are closed ?>
-		<p class="nocomments">Comments are closed.</p>
-		
-	<?php endif; ?>
+    <?php if ('open' == $post->comment_status) : ?> 
+    <h2 id="comments"><?php comments_number('No Replies', 'One Reply', '% Replies' );?></h2>
+    <p>Feel free to leave a reply using the form below!</p>
+        
+     <?php else : // comments are closed ?>
+        <p class="nocomments">Comments are closed.</p>
+        
+    <?php endif; ?>
 <?php endif; ?>
 
 

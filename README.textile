@@ -1,0 +1,27 @@
+h1. The Elixir WordPress Theme
+
+By Michael Whalen
+
+Elixir is a simple dark/neon Wordpress theme that was once in full operation on "personal website":http://whalesalad.com. I've since stopped blogging, and now it's yours to enjoy!
+
+h2. Updates / Changelog
+* *v1.1 (9/27/07)* - The theme now works inside a sub-directory (haha) and will not explode if timesince.php is not enabled.
+* *v1.2 (10/14/07)* - Removed the need for timesince plugin, all timesince functionality is now built into the theme using functions.php
+* *v1.3 (1/14/08)* - Solved the bug regarding line 8 in header.php having invalid syntax.
+
+h2. Installation
+
+* Copy the @elixir@ directory to the @/wp-content/themes/@ directory, and enabled it from the presentation area of your blog admin panel.
+* The sidebar will need some editing. The "Latest Entries" and "My Homeboys (And Girls)" are all automatically generated. The Homeboys are generated automatically from the Blogroll.
+* You'll need to modify the links for the various pages of the site, it's very simple. Basic HTML knowledge is required.
+
+h2. Modification
+
+The theme is very easy to modify, simply edit three images which are:
+* /img/nav_on.png
+* /img/upperBox_bg.jpg
+* /img/upperBox_search.png
+
+The best way to do this is using the Hue/Saturation tool in Photoshop. I sadly lost track of the actual PSD a while ago, otherwise it would also be included with the theme for modification. Adjust the hue of each image (same on each image) and save. From there, you've just got to set a few colors in the @style.css@ file and you're good to go.
+
+If you have any questions or comments, feel free to email me at "michael@whalesalad.com":mailto:michael@whalesalad.com
