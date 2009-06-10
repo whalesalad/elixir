@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/**
+ * @package WordPress
+ * @subpackage Elixir
+ */
+
+get_header(); ?>
 <div id="content" class="page">
     <div class="post" id="post-<?php the_ID(); ?>">
         <h2>Sorry!</h2>

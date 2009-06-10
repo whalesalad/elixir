@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/**
+ * @package WordPress
+ * @subpackage Elixir
+ */
+
+get_header(); ?>
 <div id="content">
     
     <h1><?php $themecolor = $elixir->option['color']; echo $themecolor; ?></h1>
