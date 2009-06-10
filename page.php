@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/**
+ * @package WordPress
+ * @subpackage Elixir
+ */
+
+get_header(); ?>
 <div id="content" class="page">
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>

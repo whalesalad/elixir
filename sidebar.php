@@ -1,3 +1,9 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Elixir
+ */
+?>
 <div id="sidebar">
     <div id="upperBox">
         <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -16,6 +22,8 @@
         <li><a <?php if (is_page('contact')) { echo 'class="active" '; } ?>href="/contact/">Contact</a></li>
     </ul>
     
+    <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()) : ?>
+    
     <?php if (is_page('about')) { ?>
     <h2>Feeds</h2>
         <ul class="feeds">
@@ -27,26 +35,18 @@
         </ul>
     <?php } ?>
     
-    <h2>Latest Entries</h2>
-    <ul>
-        <?php rewind_posts(); ?>
-        <?php query_posts("cat=-36&showposts=6"); ?>
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <li> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-        <?php endwhile; endif; ?>
-    </ul>
+    <div class="widget">
+        <h2>Latest Entries</h2>
+        <ul>
+            <?php rewind_posts(); ?>
+            <?php query_posts("cat=-36&showposts=6"); ?>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            <li> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <?php endwhile; endif; ?>
+        </ul>
+    </div>
     
-    <?php if (is_single()) { ?>
-    <h2>Related Entries</h2>
-    <ul>
-        <?php UTW_ShowRelatedPostsForCurrentPost("posthtmllist") ?>
-    </ul>               
-    <?php } ?>
-    
-    <h2>My Homeboys (And Girls)</h2>
-    <ul>
-        <?php get_links('-1', '<li>', '</span></li>', '<span>', FALSE, 'id', TRUE, FALSE, 10, FALSE, TRUE); ?>
-    </ul>
+    <?php endif; ?>
     
     <div id="footer">
         <p>Powered by <a href="http://wordpress.org/">Wordpress <?php bloginfo('version'); ?></a></p>

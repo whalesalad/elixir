@@ -5,6 +5,7 @@ By Michael Whalen
 Elixir is a simple dark/neon Wordpress theme that was once in full operation on "personal website":http://whalesalad.com. I've since stopped blogging, and now it's yours to enjoy!
 
 h2. Updates / Changelog
+
 * *v1.1 (9/27/07)* - The theme now works inside a sub-directory (haha) and will not explode if timesince.php is not enabled.
 * *v1.2 (10/14/07)* - Removed the need for timesince plugin, all timesince functionality is now built into the theme using functions.php
 * *v1.3 (1/14/08)* - Solved the bug regarding line 8 in header.php having invalid syntax.
